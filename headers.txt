@@ -1,0 +1,21 @@
+User-Agent: MyFakeBrowser/1.0, NonExistentBrowser/99.0, FakeUserAgent/1.0, CustomUserAgent/1.0, BogusBrowser/1.0, MadeUpAgent/1.0, UnknownBrowser/1.0, NonexistentBrowser/1.0, ImaginaryBrowser/1.0, PhantomBrowser/1.0
+Referer: http://fake-referer.com, http://evil-website.com, http://referrer99.com, http://bogus-referrer.com, http://fake-referrer.com, https://secure-site.com, https://untrusted-site.com, http://example2.com, http://example3.com, http://example4.com
+Cookie: session=AAAAA, token=BBBBB, session=CCCCC, user=DDDDD, cookie=EEEEE, test=11111, cookie=FFFFF, session=GGGGG, token=HHHHH, test=22222
+Authorization: Bearer AAA111, Basic BB222, OAuth2 CC333, APIKey DDDDD, JWT EE444, Bearer FF555, Basic GG666, OAuth2 HH777, APIKey IIIIII, JWT JJ888
+Accept: application/json, application/xml, text/plain, text/csv, text/xml, text/csv, application/xhtml+xml, application/json, application/json, application/json
+Content-Type: application/json, application/json, application/json, application/json, application/json, application/json, application/json, application/json, application/json, application/json
+Content-Length: 521, 1024, 4096, 2048, 8192, 16384, 32768, 65536, 131072, 262144
+Host: 10.10.10.10, 192.168.1.1, localhost, mywebsite.com, subdomain.mywebsite.com, 127.0.0.1, 198.51.100.1, example.com, test.com, malicious.com
+X-Forwarded-For: 192.168.1.1, 10.0.0.1, 172.16.0.1, 203.0.113.1, 198.51.100.1, 127.0.0.1, 10.10.10.10, 192.168.0.1, 192.168.2.1, 192.168.3.1
+Origin: https://example.com, https://localhost, http://mywebsite.com, https://subdomain.mywebsite.com, http://malicious.com, https://test.com, http://example2.com, https://example3.com, http://example4.com, https://insecure.com
+Accept-Language: en-US,en;q=0.9, fr-FR,de-DE,es-ES,it-IT,ja-JP,ko-KR,zh-CN,zh-TW,pt-BR,ru-RU,ar-SA,tr-TR,pl-PL,nl-NL,el-GR,sv-SE,da-DK,fi-FI,no-NO
+Accept-Encoding: gzip, deflate, br, identity, compress, deflate, gzip, br, identity, compress
+Connection: Keep-Alive, close, keep-alive, upgrade, keep-alive, close, upgrade, keep-alive, close, upgrade
+Keep-Alive: 300, 60, 120, 180, 240, 360, 480, 600, 720, 840
+DNT: 1, 0
+Cache-Control: no-cache, max-age=3600, max-age=86400, no-store, private, no-cache, must-revalidate, max-age=0, max-age=60, max-age=3600
+X-Requested-With: XMLHttpRequest, FetchAPI
+X-Content-Type-Options: nosniff, none
+X-Frame-Options: DENY, SAMEORIGIN
+X-XSS-Protection: 1; mode=block, 0
+Transfer-Encoding: chunked, identity, gzip;q=0.5, non-compliant-value
