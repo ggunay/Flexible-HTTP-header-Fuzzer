@@ -1,6 +1,6 @@
 # Flexible HTTP Header Fuzzing
 
-This Python script is designed for performing HTTP request fuzzing against a specified IP address. It allows you to fuzz various HTTP headers and values in your request (with your exploit) to test the behavior of a target web server.
+This Python script is designed for performing HTTP request fuzzing against a specified IP address. It allows you to fuzz various HTTP headers and values in your request (with your exploit) to test the behavior of a target web server. Ideal for testing if a fix really fixes the vulnerability.
 
 ## Prerequisites
 
